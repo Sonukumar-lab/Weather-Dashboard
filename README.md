@@ -107,59 +107,59 @@ The project is fully responsive and optimized for performance.
 ---
 
 ## 📁 Project Structure
+
+```
 weather-dashboard/
 │
 ├── public/
-│ └── index.html
+│   └── index.html
 │
 ├── src/
-│ ├── assets/
+│   ├── assets/
 │
-│ ├── components/
-│ │ ├── charts/
-│ │ ├── layout/
-│ │ ├── WeatherCard.jsx
-│ │ ├── Chart.jsx
-│ │ ├── Navbar.jsx
-│ │ └── Loader.jsx
+│   ├── components/
+│   │   ├── charts/
+│   │   ├── layout/
+│   │   ├── WeatherCard.jsx
+│   │   ├── Chart.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Loader.jsx
 │
-│ ├── pages/
-│ │ ├── CurrentWeather.jsx
-│ │ └── Historical.jsx
+│   ├── pages/
+│   │   ├── CurrentWeather.jsx
+│   │   └── Historical.jsx
 │
-│ ├── hooks/
-│ │ ├── useLocation.js
-│ │ ├── useWeather.js
-│ │ └── useHistorical.js
+│   ├── hooks/
+│   │   ├── useLocation.js
+│   │   ├── useWeather.js
+│   │   └── useHistorical.js
 │
-│ ├── services/
-│ │ ├── weatherApi.js
-│ │ ├── airQualityApi.js
-│ │ └── historicalApi.js
+│   ├── services/
+│   │   ├── weatherApi.js
+│   │   ├── airQualityApi.js
+│   │   └── historicalApi.js
 │
-│ ├── utils/
-│ │ ├── formatDate.js
-│ │ ├── convertTemp.js
-│ │ ├── formatHourlyData.js
-│ │ └── formatAirQuality.js
+│   ├── utils/
+│   │   ├── formatDate.js
+│   │   ├── convertTemp.js
+│   │   ├── formatHourlyData.js
+│   │   └── formatAirQuality.js
 │
-│ ├── context/
-│ │ └── WeatherContext.jsx
+│   ├── context/
+│   │   └── WeatherContext.jsx
 │
-│ ├── routes/
-│ │ └── AppRoutes.jsx
+│   ├── routes/
+│   │   └── AppRoutes.jsx
 │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 │
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
 └── README.md
-
----
-
+```
 ## 🌐 APIs Used
 
 ### Weather API
@@ -202,3 +202,4 @@ npm install
 
 # Run project
 npm run dev
+```
